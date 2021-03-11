@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav .nav-left {
+  display: flex;
+}
+
+header nav .nav-left .nav-item {
+  list-style: none;
+  padding: 10px;
+}
+
+header nav .nav-left .nav-link {
+  text-decoration: none;
+  color: #333;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+/*Nav right*/
+
+header nav .nav-right {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  right: 10px;
+}
+
+header nav .nav-right .nav-item {
+  list-style: none;
+  padding: 10px;
+}
+
+header nav .nav-right .nav-link {
+  text-decoration: none;
+  color: #333;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+header nav .nav-right figure {
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+header nav .nav-right figure img:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+header nav .nav-right .btn {
+  padding: 1px 22px 1px;
+  text-align: center;
+  height: 35px;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background: #4285f4;
+  color: #fff;
+  outline-style: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+/*main*/
+
+main .form-logo {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  right: 35%;
+}
+
+main .form-logo form .input-border {
+  border: 1px solid #dfe1e5;
+  border-radius: 120px;
+  width: 450px;
+  padding: 9px 15px;
+  margin-left: -70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .form-logo form .input-border:hover {
+  box-shadow: 1px 1px 9px 0px rgba(15, 14, 14, 0.3);
+}
+
+main .form-logo form .input-border input {
+  border: none;
+  outline-style: none;
+  justify-content: center;
+  width: 350px;
+  margin-left: 20px;
+}
+
+main .form-logo form .input-border .mic-icon {
+  background: url(https://web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  cursor: pointer;
+}
+
+main .form-logo form .input-border .search-icon img {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  height: 17px;
+}
+
+/*Form butons*/
+
+main .form-logo form .form-buttons {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+main .form-logo form .form-buttons button {
+  margin: 10px;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  color: #333;
+}
+
+main .form-logo form .form-buttons button:hover {
+  color: #000;
+}
+
+/*Footer*/
+
+footer {
+  bottom: 0;
+  font-size: 10pt;
+  height: 35px;
+  position: fixed;
+  width: 100%;
+  background: #dfe1e5;
+}
+
+footer nav {
+  display: flex;
+  padding: 0px;
+}
+
+footer nav .nav-left {
+  display: flex;
+}
+
+footer nav .nav-left .nav-item {
+  list-style: none;
+  padding: 10px;
+}
+
+footer nav .nav-left .nav-link {
+  text-decoration: none;
+  color: #333;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+/*Nav right*/
+
+footer nav .nav-right {
+  display: flex;
+  position: absolute;
+  right: 10px;
+}
+
+footer nav .nav-right .nav-item {
+  list-style: none;
+  padding: 10px;
+}
+
+footer nav .nav-right .nav-link {
+  text-decoration: none;
+  color: #333;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
